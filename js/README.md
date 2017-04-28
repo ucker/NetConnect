@@ -1,1 +1,1 @@
-来自[QRCode.js][https://github.com/davidshimjs/qrcodejs]
+来自[QRCode.js](https://github.com/davidshimjs/qrcodejs)
