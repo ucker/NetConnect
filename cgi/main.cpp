@@ -1,9 +1,3 @@
-//============================================================================
-// Name        : SSLClient.cpp
-// Author      : Raschupkin Roman
-// Compliing   : g++ -c -o SSLClient.o SSLClient.cpp
-//                 g++ -o SSLClient SSLClient.o -lssl -lcrypto
-//============================================================================
 #include <cstdio>
 #include <vector>
 #include <iostream>
