@@ -8,7 +8,7 @@
 
 1. 下载二进制文件(请直接从Release页面下载)
 
-2. 将二进制文件复制到`/www/cgi-bin`目录下。同时将文件js目录中的内容复制到`/www/luci-static`下。并配置合适的权限运行需要openssl支持。如何安装openssl](#install_openssl)  
+2. 将二进制文件复制到`/www/cgi-bin`目录下。同时将文件js目录中的内容复制到`/www/luci-static`下。并配置合适的权限运行需要openssl支持。如何安装[openssl](#install_openssl)  
 ```bash
 mv /root/netconnect /www/cgi-bin
 chmod 755 /www/cgi-bin/netconnect
