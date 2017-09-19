@@ -72,6 +72,10 @@ void log_ssl()
 
 int main()
 {
+  cout <<   "Status: 200 OK\n"
+       << "Content-Type: text/html\n"
+       << "Cache-Control: no-cache\n"
+       << "Expires: 0\n\n";    
   string in_ip, out_ip, qr_string;
   get_information(out_ip, in_ip);
   //cout<<"out ip is "<<out_ip<<endl;
@@ -132,11 +136,6 @@ int main()
     //cout<<qr_information<<endl;
     qr_string = get_url(qr_information);
     //qr_string = "HIWF://5804542db9ea75af7d01ecd107";
-
-      cout <<   "Status: 200 OK\n"
-        << "Content-Type: text/html\n"
-        << "Cache-Control: no-cache\n"
-        << "Expires: 0\n\n";
 
   cout << "<!DOCTYPE html>"
        << "<html>"
